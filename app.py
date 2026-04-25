@@ -5,7 +5,7 @@ import xgboost as xgb
 # LOAD MODEL
 # -------------------------------
 model = xgb.Booster()
-model.load_model(r"C:\Users\prasa\Downloads\model.json")
+model.load_model("model.json")
 
 # -------------------------------
 # UI
